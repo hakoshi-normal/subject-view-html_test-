@@ -9,7 +9,10 @@ https://hakoshi-normal.github.io/subject-view-html_test-/
 
 9/9 fri Updated  
 　オシャレな時計デザインの[ブログ記事](https://web-dev.tech/front-end/javascript/digital-clock/)を見つけたので使わせてもらった．  
-　日時選択機能はコメントアウトしているが，GUIの残骸がある．また今度．
+　日時選択機能はとりあえずコメントアウトしている．コード整形はまた今度．  
+ <br>
+ 画像は表示テスト．（撮影日は夏休みであり，時計と時間割は別に更新しているため，画像では意図的に時間割の日時をずらしている）  
+ ![screenshot](https://raw.githubusercontent.com/hakoshi-normal/md_images/main/subject_view_sample.png "画面")
 
 使用したAPIはこちら（自家製）↓  
 https://github.com/hakoshi-normal/subjects_api
