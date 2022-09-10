@@ -15,7 +15,7 @@ body {
 
 
 #subjects_table {
-  font-size: 4vh;
+  /*font-size: 4vh;*/
   text-align: center;
   margin:auto;
 }
@@ -53,13 +53,13 @@ body {
 .clock-time {
   font-size: 25vh;
   margin-top: 0vh;
-  margin-bottom: 2.5vh;
+  margin-bottom: 2vh;
 }
 
 /* コメントのスタイル */
 #day_msg {
   font-size: 10vh;
-  margin-bottom: 2.5vh;
+  margin-bottom: 2vh;
 }
 
 /* 文字サイズ調整 */
