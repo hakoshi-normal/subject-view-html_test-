@@ -14,17 +14,20 @@
         <button type="button" class="select" onclick="generate_url_select()" disabled>決定</button><p></p> -->
     <!-- <div id="msg1"></div> -->
     <!-- <div id="msg2"></div> -->
-    <div class="container">
+    <div id="targetbox" class="container">
         <div class="clock">
-            <p class="clock-date"></p>
-            <p id="day_msg"></p>
-            <p class="clock-time"></p>
-            <table id="subjects_table" border="1"></table>
+            <div class="clock-date"></div>
+            <div class="clock-time"></div>
+            <div id="day_msg"></div>
+            <table id="subjects_table" border="1" cellpadding="10vh"></table>
         </div>
     </div>
     <!-- JavaScriptファイル読み込み -->
     <script src="clock.js"></script>
     <script src="check.js"></script>
     <!-- <script src="check_test.js"></script> -->
+    <script>
+      document.getElementById('targetbox').style.height = document.documentElement.clientHeight + "px";
+    </script>
 </body>
 </html>
