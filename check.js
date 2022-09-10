@@ -76,7 +76,8 @@ const check = () => {
 
     function generate_url_now() {
         var now = new Date();
-        let url = `https://fukuchiyama-subjects-api.deno.dev/?year=${now.getFullYear()}&month=${now.getMonth() + 1}&day=${now.getDate()}&hour=${now.getHours()}&min=${now.getMinutes()}`;
+        // let url = `https://fukuchiyama-subjects-api.deno.dev/?year=${now.getFullYear()}&month=${now.getMonth() + 1}&day=${now.getDate()}&hour=${now.getHours()}&min=${now.getMinutes()}`;
+        let url = `https://fukuchiyama-subjects-api.deno.dev/?year=${2022}&month=${10}&day=${5}&hour=${14}&min=${50}`;
         get_json(url);
     }
 
