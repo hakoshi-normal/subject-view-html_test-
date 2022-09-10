@@ -50,6 +50,11 @@ const check = () => {
                 }
             }
             document.getElementById("subjects_table").innerHTML = new_row;
+            var font_size = 20 / (jsonObj.result.length + 1);
+            if (font_size > 6) {
+                font_size = 6;
+            };
+            document.getElementById("subjects_table").style.fontSize = font_size + 'vh';
         } else {
             msg = jsonObj.event;
         }
